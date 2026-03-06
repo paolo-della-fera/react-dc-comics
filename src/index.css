@@ -30,5 +30,33 @@ main {
     section {
         background-color: #0282f9;
     }
+}
+
+
+footer {
+    background-image: url("/footer-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
     
+    .row {
+        align-items: stretch !important;
+    }
+    
+    .footer_logo {
+        position: relative;
+        overflow: visible;
+        padding: 0;
+    }
+    
+    .footer_logo img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
+        height: 195%;
+        width: auto; 
+        max-width: none; 
+    }
 }

@@ -16,3 +16,19 @@ header {
 }
 
 
+main {
+    background-color: #1c1c1c;
+
+    .jumbotron {
+        width: 100%;
+    }
+
+    .icon_img {
+        width: 55px;
+    }
+
+    section {
+        background-color: #0282f9;
+    }
+    
+}

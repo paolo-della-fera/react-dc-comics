@@ -39,24 +39,34 @@ footer {
     background-position: center;
     overflow: hidden;
     position: relative;
-    
+
     .row {
         align-items: stretch !important;
     }
-    
+
     .footer_logo {
         position: relative;
         overflow: visible;
         padding: 0;
     }
-    
+
     .footer_logo img {
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
         height: 195%;
-        width: auto; 
-        max-width: none; 
+        width: auto;
+        max-width: none;
+    }
+
+}
+
+.footer-bottom {
+    background-color: #303030;
+    
+    .follow-us {
+        color: #0282f9;
     }
 }
+

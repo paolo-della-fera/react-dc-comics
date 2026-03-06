@@ -1,7 +1,18 @@
 @import url('bootstrap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Open Sans Variable', sans-serif;
 }
+
+
+header {
+    font-size: 0.8rem;
+}
+
 

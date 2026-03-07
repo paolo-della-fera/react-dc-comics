@@ -11,9 +11,9 @@ export default function AppHeader() {
                         <img src={dcLogo} alt="DC Logo" />
                     </a>
 
-                    <div className="d-flex gap-3">
+                    <div className="d-flex gap-4 fw-bold">
                         <a className="nav-link text-uppercase" href="#">characters</a>
-                        <a className="nav-link text-uppercase" href="#">comics</a>
+                        <a className="nav-link text-uppercase active-link" href="#">comics</a>
                         <a className="nav-link text-uppercase" href="#">movies</a>
                         <a className="nav-link text-uppercase" href="#">tv</a>
                         <a className="nav-link text-uppercase" href="#">games</a>

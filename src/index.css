@@ -13,6 +13,25 @@ body {
 
 header {
     font-size: 0.8rem;
+
+    .nav-link {
+        letter-spacing: -1px;
+    }
+
+    .active-link {
+        position: relative;
+        color: #0282f9;
+    }
+
+    .active-link::after {
+        content: '';
+        position: absolute;
+        bottom: -55px;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: #0282f9;
+    }
 }
 
 
@@ -64,9 +83,9 @@ footer {
 
 .footer-bottom {
     background-color: #303030;
-    
+
     .follow-us {
         color: #0282f9;
+        letter-spacing: -1px;
     }
 }
-

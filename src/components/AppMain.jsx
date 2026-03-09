@@ -1,4 +1,3 @@
-import jumbotronDc from '/jumbotron.jpg'
 import digitalComics from '/buy-comics-digital-comics.png'
 import dcMerch from '/buy-comics-merchandise.png'
 import subscription from '/buy-comics-subscriptions.png'

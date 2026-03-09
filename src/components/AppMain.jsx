@@ -175,7 +175,7 @@ export default function AppMain() {
 
                                 <div className='col'>
                                     <div className='card rounded-0'>
-                                        <img src={comic.thumb} alt="" />
+                                        <img src={comic.thumb} alt={comic.title} />
                                         <div className='card-body p-0 py-3'>
                                             <p className='fs-6'>{comic.series.toUpperCase()}</p>
                                         </div>

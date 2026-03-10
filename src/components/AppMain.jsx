@@ -4,6 +4,8 @@ import subscription from '/buy-comics-subscriptions.png'
 import comicShop from '/buy-comics-shop-locator.png'
 import dcPowerVisa from '/buy-dc-power-visa.svg'
 
+import ComicCard from './AppComicCard'
+
 const comics = [
     {
         id: 1,
@@ -173,14 +175,7 @@ export default function AppMain() {
                         {
                             comics.map(comic => (
 
-                                <div className='col'>
-                                    <div className='card rounded-0'>
-                                        <img src={comic.thumb} alt={comic.title} />
-                                        <div className='card-body p-0 py-3'>
-                                            <p className='fs-6'>{comic.series.toUpperCase()}</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ComicCard thumb={comic.thumb} title={comic.title} series={comic.series} />
 
                             ))
                         }

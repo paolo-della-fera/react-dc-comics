@@ -5,11 +5,8 @@ import pinterest from '/footer-pinterest.png'
 import twitter from '/footer-twitter.png'
 import youtube from '/footer-youtube.png'
 
-const footerDcComics = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
-const footerDc = ['Terms Of Use', 'Privacy Policy (New)', 'Ad Choise', 'Advertising', 'Jobs', 'Subscription', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us']
-const footerSites = ['DC', 'MAD Magazine', 'DC Kinds', 'DC Universe', 'DC Power Visa']
 
-export default function AppFooter() {
+export default function AppFooter({footerDcComics, footerDc, footerSites}) {
 
     return (
 
